@@ -1,45 +1,52 @@
 # NftCreator-10000
 
-A web app for generating NFT PFP images.  
-Easily combine multiple design layers and backgrounds, preview results live, and export your collection for NFT platforms like OpenSea.
+🌐 **ENGLISH / ESPAÑOL**
 
 ---
 
-Aplicación web para crear imágenes NFT tipo PFP.  
-Combina varias capas de diseño y fondos, visualiza el resultado en tiempo real y exporta tu colección para plataformas NFT como OpenSea.
+## Description / Descripción
+
+**EN:**  
+A web app and toolkit for generating NFT PFP images.  
+Easily combine multiple main designs and backgrounds, preview results live, and export your NFT collection with metadata for platforms like OpenSea.  
+Built with React and TypeScript.
+
+**ES:**  
+Aplicación web y toolkit para la generación de imágenes NFT tipo PFP.  
+Combina fácilmente diferentes diseños principales y fondos, visualiza el resultado en tiempo real y exporta tu colección NFT con metadata lista para plataformas como OpenSea.  
+Desarrollado con React y TypeScript.
 
 ---
 
 ## Features / Características
 
-- Live preview of your NFT combinations
-- Upload your own design layers and backgrounds
-- Download generated images and metadata
-- Modern UI built with React and TypeScript
-
-- Vista previa en tiempo real de tus combinaciones NFT
-- Sube tus propias capas de diseño y fondos
-- Descarga las imágenes y metadata generadas
-- Interfaz moderna construida con React y TypeScript
+- 🌟 Live preview of NFT image combinations / Vista previa en tiempo real
+- 📤 Upload your own main designs and backgrounds / Sube tus propios diseños y fondos
+- 🖼️ Download generated images and metadata / Descarga imágenes y metadata generadas
+- ⚡ Modern UI (React + TypeScript) / Interfaz moderna (React + TypeScript)
+- 🗂️ Modular structure for adding new styles / Estructura modular para añadir estilos
 
 ---
 
 ## Getting Started / Primeros pasos
 
-1. Clone this repository:
+1. **Clone this repository / Clona este repositorio:**
    ```bash
    git clone https://github.com/pilukarts/NftCreator-10000.git
    cd NftCreator-10000
    ```
-2. Install dependencies:
+
+2. **Install dependencies / Instala dependencias:**
    ```bash
    npm install
    ```
-3. Start the development server:
+
+3. **Start the development server / Inicia el servidor de desarrollo:**
    ```bash
    npm start
    ```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+4. **Open / Abre:** [http://localhost:3000](http://localhost:3000)
 
 ---
 
@@ -49,8 +56,14 @@ Combina varias capas de diseño y fondos, visualiza el resultado en tiempo real 
 src/
   components/
   assets/
-    designs/
+    main-designs/
+      main_silver.png
+      main_green.png
+      ...
     backgrounds/
+      background1.jpg
+      background2.png
+      ...
   utils/
 public/
 README.md
@@ -60,18 +73,26 @@ package.json
 
 ---
 
-## Customization / Personalización
+## Usage / Uso
 
-- Add your main design images to `src/assets/designs/`
-- Add backgrounds to `src/assets/backgrounds/`
-- Use the UI to mix and match, preview, and export!
+- **EN:**  
+  Upload your main designs and backgrounds via the app interface.  
+  Mix and match, preview, and export as needed.
 
-- Añade tus imágenes de diseño principal en `src/assets/designs/`
-- Añade fondos en `src/assets/backgrounds/`
-- ¡Usa la interfaz para combinar, previsualizar y exportar!
+- **ES:**  
+  Sube tus diseños principales y fondos usando la interfaz de la aplicación.  
+  Combina, previsualiza y exporta según lo necesites.
 
 ---
 
-**Personal NFT generation web app for creating large PFP collections easily and visually.**
+## Customization / Personalización
 
-**Aplicación web personal para generar colecciones NFT PFP de manera visual y sencilla.**
+- Add more designs and backgrounds by placing files in `src/assets/main-designs/` and `src/assets/backgrounds/`
+- Añade más diseños y fondos poniendo archivos en `src/assets/main-designs/` y `src/assets/backgrounds/`
+
+---
+
+**Personal NFT generator project for creating large or experimental PFP collections visually and easily.**  
+**Proyecto personal para generar colecciones NFT PFP de manera visual y sencilla.**
+
+---
