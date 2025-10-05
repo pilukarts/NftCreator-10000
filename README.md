@@ -1,81 +1,77 @@
 # NftCreator-10000
 
-Automated NFT PFP image generator.  
-Create thousands of unique images by combining different main designs and backgrounds, ready for NFT collections on platforms like OpenSea.
+A web app for generating NFT PFP images.  
+Easily combine multiple design layers and backgrounds, preview results live, and export your collection for NFT platforms like OpenSea.
 
 ---
 
-Generador automatizado de imágenes NFT tipo PFP (Profile Picture).  
-Crea miles de imágenes únicas combinando diferentes diseños principales y fondos, ideal para colecciones NFT compatibles con plataformas como OpenSea.
+Aplicación web para crear imágenes NFT tipo PFP.  
+Combina varias capas de diseño y fondos, visualiza el resultado en tiempo real y exporta tu colección para plataformas NFT como OpenSea.
 
 ---
 
 ## Features / Características
 
-- Generate images by combining main design layers and backgrounds.
-- Compatible with PNG and JPG files.
-- Modular structure for easily adding more styles or backgrounds.
-- Automatically generates standard metadata files for each image.
+- Live preview of your NFT combinations
+- Upload your own design layers and backgrounds
+- Download generated images and metadata
+- Modern UI built with React and TypeScript
 
-- Genera imágenes combinando capas de diseño principal y fondos.
-- Compatible con archivos PNG y JPG.
-- Estructura modular para añadir más estilos o fondos fácilmente.
-- Genera también los archivos metadata estándar para cada imagen.
+- Vista previa en tiempo real de tus combinaciones NFT
+- Sube tus propias capas de diseño y fondos
+- Descarga las imágenes y metadata generadas
+- Interfaz moderna construida con React y TypeScript
+
+---
+
+## Getting Started / Primeros pasos
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/pilukarts/NftCreator-10000.git
+   cd NftCreator-10000
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
 ## Folder Structure / Estructura de carpetas
 
 ```
-layers/
-  MainDesigns/
-    main_silver.png
-    main_green.png
-    main_cyan.png
-    ...
-  backgrounds/
-    background1.jpg
-    background2.png
-    ...
-output/
-  images/
-  metadata/
-scripts/
-  generate_nfts.py
+src/
+  components/
+  assets/
+    designs/
+    backgrounds/
+  utils/
+public/
+README.md
+package.json
+...
 ```
-
----
-
-## Usage / Uso
-
-1. Place your main design images in `layers/MainDesigns/` (e.g., `main_silver.png`).
-2. Place your backgrounds in `layers/backgrounds/`.
-3. Run the main script:
-   ```bash
-   python scripts/generate_nfts.py
-   ```
-4. The generated images and metadata will be saved in the `output/` folder.
-
-1. Coloca tus imágenes base en `layers/MainDesigns/` (por ejemplo, `main_silver.png`).
-2. Coloca tus fondos en `layers/backgrounds/`.
-3. Ejecuta el script principal:
-   ```bash
-   python scripts/generate_nfts.py
-   ```
-4. Las imágenes y metadata se guardarán en la carpeta `output/`.
 
 ---
 
 ## Customization / Personalización
 
-- Add more designs and backgrounds by simply placing more files in the corresponding folders.
-- Modify the script to generate additional combinations or attributes as needed.
+- Add your main design images to `src/assets/designs/`
+- Add backgrounds to `src/assets/backgrounds/`
+- Use the UI to mix and match, preview, and export!
 
-- Puedes añadir más diseños y fondos simplemente agregando más archivos a las carpetas correspondientes.
-- Modifica el script para generar más combinaciones o atributos si lo necesitas.
+- Añade tus imágenes de diseño principal en `src/assets/designs/`
+- Añade fondos en `src/assets/backgrounds/`
+- ¡Usa la interfaz para combinar, previsualizar y exportar!
 
 ---
 
-**Personal NFT generation project designed to make creating large PFP collections simple and fast.**
+**Personal NFT generation web app for creating large PFP collections easily and visually.**
 
-**Proyecto personal de generación NFT, pensado para facilitar la creación de grandes colecciones PFP de manera sencilla y rápida.**
+**Aplicación web personal para generar colecciones NFT PFP de manera visual y sencilla.**
