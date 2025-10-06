@@ -18,6 +18,22 @@ Desarrollado con React y TypeScript.
 
 ---
 
+## Legal Notice / Aviso Legal
+
+**EN:**  
+This tool is intended for users to create and upload their own NFT images and metadata.  
+You are solely responsible for the content and images you upload and generate using this app.  
+Do not upload images or designs that you do not own or do not have rights to use.  
+The author of this software is not responsible for any misuse or copyright infringement by users.
+
+**ES:**  
+Esta herramienta está pensada para que los usuarios creen y suban sus propias imágenes NFT y metadata.  
+Eres el único responsable del contenido e imágenes que subas y generes usando esta aplicación.  
+No subas imágenes o diseños que no sean tuyos o para los que no tengas derechos de uso.  
+El autor de este software no se responsabiliza por usos indebidos ni infracciones de derechos de autor por parte de los usuarios.
+
+---
+
 ## Features / Características
 
 - 🌟 Live preview of NFT image combinations / Vista previa en tiempo real
@@ -55,18 +71,16 @@ Desarrollado con React y TypeScript.
 ```
 src/
   components/
+    UploadArea.tsx
+    PreviewCanvas.tsx
+    ExportButton.tsx
   assets/
     main-designs/
-      main_silver.png
-      main_green.png
-      ...
     backgrounds/
-      background1.jpg
-      background2.png
-      ...
   utils/
 public/
 README.md
+LICENSE
 package.json
 ...
 ```
@@ -95,4 +109,5 @@ package.json
 **Personal NFT generator project for creating large or experimental PFP collections visually and easily.**  
 **Proyecto personal para generar colecciones NFT PFP de manera visual y sencilla.**
 
+---
 ---
